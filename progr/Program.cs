@@ -71,12 +71,12 @@ void FindArray(string[] array)
     }
 }
 
-void FillArray(string[] collection, int collectionLen)
+void FillArray(string[] collection, int colLen)
 {
     Console.Write($"[ ");
-    for (int index = 0; index < collectionLen - 1; index++)
+    for (int index = 0; index < colLen - 1; index++)
     {
         Console.Write($"{collection[index]}, ");
     }
-    Console.Write($"{collection[collectionLen - 1]} ]");
+    Console.Write($"{collection[colLen - 1]} ]");
 }
